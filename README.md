@@ -38,4 +38,5 @@ Scripts install core tools. Below is a list of tools installed.
 | twint               |                                                              |
 | eyewitness          |                                                              |
 | nikto               |                                                              |
+| john                | John the ripper                                              |
 
