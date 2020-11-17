@@ -1,4 +1,4 @@
-##Script to install tools
+# Script to install tools
 
 **List of packages:**
 * build-essential       # Informational list of build-essential packages
