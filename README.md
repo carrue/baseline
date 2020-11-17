@@ -1,7 +1,6 @@
-​		
+# README
 
-Tools Installed
-
+Scripts install core tools. Below is a list of tools installed.
 
 
 | Tool                | Description                                                  |
