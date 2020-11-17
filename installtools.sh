@@ -37,6 +37,9 @@ chmod +x ~/tools/nikto/program/nikto.pl
 #install metasploit
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 
+#install lynis security scanner 
+git clone https://github.com/CISOfy/lynis ~/tools/lynis
+
 #update path
 echo export PATH="$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" >> ~/.bashrc
 source ~/.bashrc
