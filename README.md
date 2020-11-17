@@ -5,6 +5,29 @@ Scripts install core tools. Below is a list of tools installed.
 
 | Tool                | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
+| amass               | Performs network mapping and external asset discovery        |
+| arp-scan            | ARP protocol discover and fingerprint                        |
+| awscli              | Cli aws                                                      |
+| exploitdb           | CVE archive                                                  |
+| eyewitness          | screenshot of website                                        |
+| ffuf                | web fuzzer                                                   |
+| go                  | google go                                                    |
+| gobuster            | bruteforce tool                                              |
+| Homebrew            | Package manager for macOS or Linux                           |
+| masscan             | TCP port scanner                                             |
+| metasploit          | tool to dev and exe exploit code                             |
+| net-tools           | Installs arp, ifconfig, netstat, rarp, nameif and route      |
+| netcat              | Tcpip swiss army knife                                       |
+| netdiscover         | Active/passive network address scanner using ARP requests    |
+| nikto               | web vulnerability scanner                                    |
+| nmap                | Network mapper                                               |
+| nuclei              | target scanning tool                                         |
+| twint               | twitter scrapper                                             |
+| python3-shodan      | install showdan [to run type shondan] Also need to add API key |
+
+
+| Other               | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
 | build-essential     | Informational list of build-essential packages               |
 | git                 | git versioning control                                       |
 | jq                  | JSON processor                                               |
@@ -23,20 +46,4 @@ Scripts install core tools. Below is a list of tools installed.
 | ruby-dev            | Header files for compiling extension modules for Ruby (default version) |
 | ruby-full           | Ruby full install                                            |
 | zlib1g-dev          | Compression library - development                            |
-| arp-scan            | ARP protocol discover and fingerprint                        |
-| awscli              | Cli aws                                                      |
-| masscan             | TCP port scanner                                             |
-| netcat              | Tcpip swiss army knife                                       |
-| netdiscover         | Active/passive network address scanner using ARP requests    |
-| net-tools           | Installs arp, ifconfig, netstat, rarp, nameif and route      |
-| nmap                | Network mapper                                               |
 | snap                | install snap                                                 |
-| python3-shodan      | install showdan [to run type shondan] Also need to add API key |
-| Homebrew            | Package manager for macOS or Linux                           |
-| amass               |                                                              |
-| exploitdb           |                                                              |
-| twint               |                                                              |
-| eyewitness          |                                                              |
-| nikto               |                                                              |
-| john                | John the ripper                                              |
-
