@@ -26,6 +26,8 @@ Scripts install core tools. Below is a list of tools installed.
 | python3-shodan      | install showdan [to run type shondan] Also need to add API key |
 
 
+
+
 | Other               | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
 | build-essential     | Informational list of build-essential packages               |
