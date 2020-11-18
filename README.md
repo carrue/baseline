@@ -2,9 +2,7 @@
 
 Scripts install core tools. Below is a list of tools installed.
 
-$ wget https://raw.githubusercontent.com/carrue/tools/main/install.sh
-$ chmod +x install.sh
-$ ./install.sh
+$ wget https://raw.githubusercontent.com/carrue/tools/main/install.sh; chmod +x install.sh; ./install.sh
 
 
 | Tool                | Description                                                  |
