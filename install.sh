@@ -2,6 +2,11 @@
 
 sudo apt -y update && sudo apt -y upgrade
 sudo apt install -y build-essential git jq libcurl4-openssl-dev libffi-dev libgmp-dev libldns-dev libssl-dev libxml2 libxml2-dev libxslt1-dev python3-pip python-dev python-dnspython python-setuptools rename ruby-dev ruby-full snap snapd zlib1g-dev
+sudo apt install -y locate phantomjs
+
+# download subdomains SecLists
+sudo mkdir /opt/wordlist
+sudo wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/DNS/subdomains-top1million-20000.txt /opt/wordlist
 
 #install homebrew
 echo -e '\n\n\033[1m.....Installing Homebrew.....\n\033[0m'
@@ -85,6 +90,12 @@ git clone https://github.com/offensive-security/exploitdb.git ~/tools/exploit-da
 ~/tools/exploit-database/searchsploit -u
 sleep 2
 
+#install massdns
+git clone https://github.com/blechschmidt/massdns.git ~/tools/massdns
+cd ~/tools/massdns
+make
+sleep 2
+
 #install twint
 echo -e '\n\n\033[1m.....Installing twint.....\n\033[0m'
 git clone https://github.com/twintproject/twint.git ~/tools/twint
@@ -128,7 +139,9 @@ sleep 2
 echo export PATH="$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" >> ~/.bashrc
 source ~/.bashrc
 
+mkdir ~/nmap_scans
+
 #create text file with list of tools installed
-cat install.sh | grep '#install' | cut -f 2 -d " " | sort > toolsinstalled.txt
+cat install.sh | grep '#install ' | cut -f 2 -d " " | sort > toolsinstalled.txt
 
 echo -e '\n\n\033[1m.....Done. See toolsinstalled.txt.....\n\n\n\033[0m'
